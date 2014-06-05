@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f7f4;
+  text-align: center;
+  font-family: verdana, serif;
+  color: #625b52;
+}
+
+h1{
+  margin: 0.2em;
+  font-family: georgia, serif;
+  font-size: 72px;
+}
+
+h2 {
+  margin: 0.1em;
+  font-size: 36px;
+}
+img{
+  width: 30%;
+  margin: auto;
+}
