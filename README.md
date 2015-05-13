@@ -21,8 +21,19 @@ Mobile speed: 0
 Mobile user experience: 87
 Desktop speed: 0  
 
+
 ### 1 Switch to Divshot
+Effecient build steps useful for static
+```sh
+mkdir www www/images
+for file in images/*; do convert $file -resize 500 ./www/$file; done
+divshot push
+```
 
-
-### 2 Optimise images
+### 2 Resize images
 `for file in images/*; do convert $file -resize 500 ./www/$file; done`
+
+Page Speed Insights
+Mobile speed: 51
+Mobile user experience: 87
+Desktop speed: 55  
