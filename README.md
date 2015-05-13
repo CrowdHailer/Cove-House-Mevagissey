@@ -27,6 +27,7 @@ Effecient build steps useful for static
 ```sh
 mkdir www www/images
 for file in images/*; do convert $file -resize 500 ./www/$file; done
+./node_modules/.bin/imagemin www/images/* www/images/
 divshot push
 ```
 
@@ -37,3 +38,14 @@ Page Speed Insights
 Mobile speed: 51
 Mobile user experience: 87
 Desktop speed: 55  
+
+### 3 Optimise images
+Compress images with imagemin
+install
+```sh
+npm i --save-dev imagemin
+
+Page Speed Insights
+Mobile speed: 75
+Mobile user experience: 87
+Desktop speed: 86
