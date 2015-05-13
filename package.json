@@ -14,6 +14,7 @@
   "license": "None",
   "devDependencies": {
     "imagemin": "~3.1.0",
-    "clean-css": "~3.2.9"
+    "clean-css": "~3.2.9",
+    "html-minifier": "~0.7.2"
   }
 }

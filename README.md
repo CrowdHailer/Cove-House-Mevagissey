@@ -63,3 +63,15 @@ Page Speed Insights
 Mobile speed: 77
 Mobile user experience: 87
 Desktop speed: 87
+
+### 5 Inline CSS and optimize html
+For this step i simply copied css
+install
+```sh
+npm i --save-dev html-minifier
+```
+
+Page Speed Insights
+Mobile speed: 88
+Mobile user experience: 87
+Desktop speed: 92
