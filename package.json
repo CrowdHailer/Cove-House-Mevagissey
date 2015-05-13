@@ -13,6 +13,7 @@
   "author": "",
   "license": "None",
   "devDependencies": {
-    "imagemin": "~3.1.0"
+    "imagemin": "~3.1.0",
+    "clean-css": "~3.2.9"
   }
 }

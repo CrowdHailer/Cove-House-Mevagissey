@@ -28,6 +28,7 @@ Effecient build steps useful for static
 mkdir www www/images
 for file in images/*; do convert $file -resize 500 ./www/$file; done
 ./node_modules/.bin/imagemin www/images/* www/images/
+cat css/foundation.css css/layout.css | ./node_modules/.bin/cleancss > www/css/main.min.css
 divshot push
 ```
 
@@ -44,8 +45,21 @@ Compress images with imagemin
 install
 ```sh
 npm i --save-dev imagemin
+```
 
 Page Speed Insights
 Mobile speed: 75
 Mobile user experience: 87
 Desktop speed: 86
+
+### 4 Clean Css
+Clean css with clean css
+install
+```sh
+npm i --save-dev clean
+```
+
+Page Speed Insights
+Mobile speed: 77
+Mobile user experience: 87
+Desktop speed: 87
