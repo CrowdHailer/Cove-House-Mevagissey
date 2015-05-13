@@ -20,3 +20,9 @@ Initial Page Speed Insights
 Mobile speed: 0
 Mobile user experience: 87
 Desktop speed: 0  
+
+### 1 Switch to Divshot
+
+
+### 2 Optimise images
+`for file in images/*; do convert $file -resize 500 ./www/$file; done`
