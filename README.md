@@ -14,3 +14,9 @@ This page can be view for the purpose of openess. However all copyright is reser
 
 Update
 ======
+This site is being moved to a more appropriate static hosting. During this process I will incorperate several optimisations and record impact.
+
+Initial Page Speed Insights
+Mobile speed: 0
+Mobile user experience: 87
+Desktop speed: 0  
