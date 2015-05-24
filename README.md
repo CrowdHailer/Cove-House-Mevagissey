@@ -2,7 +2,7 @@ Cove House Mevagissey
 =====================
 A luxury holiday cottage with stunning views over the Mevagissey harbour, village and along the beautiful Cornish coast.
 
-http://www.covehousemevagissey.com/
+http://www.covehousemevagissey.co.uk/
 
 ![View over Mevagissey harbour](http://covehousemevagissey.co.uk/images/DSC_1607.JPG)
 
