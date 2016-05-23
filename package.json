@@ -1,6 +1,6 @@
 {
   "name": "covehousemevagissey",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "A luxury holiday cottage with stunning views over the Mevagissey harbour, village and along the beautiful Cornish coast.",
   "main": "www/index.html",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:peter_saxton/covehousemevagissey.git"
+    "url": "git@github.com:workshop14/Cove-House-Mevagissey.git"
   },
-  "author": "",
+  "author": "Workshop 14 Limited",
   "license": "None",
   "devDependencies": {
     "imagemin": "~3.1.0",

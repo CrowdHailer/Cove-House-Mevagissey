@@ -30,8 +30,8 @@ for file in images/*; do convert $file -resize 500 ./www/$file; done
 ./node_modules/.bin/imagemin www/images/* www/images/
 mkdir www/css
 cat css/foundation.css css/layout.css | ./node_modules/.bin/cleancss > www/css/main.min.css
-cp index.html www
-firebase deploy
+cp CNAME index.html www/
+surge www
 ```
 
 ### 2 Resize images
